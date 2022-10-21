@@ -1,7 +1,7 @@
 function palindrome(str) {
   let bag = "";
-  for (i = str.length - 1; i > 0; i--) {
-    bag += str[8];
+  for (i = str.length - 1; i >= 0; i--) {
+    bag += str[i];
   }
   if (str === bag) {
     console.log("It's a palindrome");
@@ -9,4 +9,4 @@ function palindrome(str) {
     console.log("It's not a palindrome");
   }
 }
-palindrome();
+
